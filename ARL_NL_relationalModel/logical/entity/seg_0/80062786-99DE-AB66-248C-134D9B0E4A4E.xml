@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80062786-99DE-AB66-248C-134D9B0E4A4E" name="NL_Member">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:03:53 UTC</createdTime>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<engineerTo>
+<item key="D9C3D9F3-C172-6B08-EA1D-14F2588E8E83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="member_id" id="6E228161-FA85-0042-526E-777BA5D303CF">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:04:01 UTC</createdTime>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<engineerTo>
+<item key="D9C3D9F3-C172-6B08-EA1D-14F2588E8E83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="B9F7AFF2-F57A-B050-1A38-FDAA9B44BE55">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:04:08 UTC</createdTime>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<engineerTo>
+<item key="D9C3D9F3-C172-6B08-EA1D-14F2588E8E83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="date_added" id="A1DF4D9F-7CD1-0F6E-E10B-3EA7D62D47DC">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:04:16 UTC</createdTime>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<engineerTo>
+<item key="D9C3D9F3-C172-6B08-EA1D-14F2588E8E83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="user_id" id="AEB5C74F-D86F-1B44-CF20-B28CA8AB742E">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:04:32 UTC</createdTime>
+<generatorID>3089F3D2-AEA2-3261-A097-7D9F4FDFB7F5</generatorID>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<engineerTo>
+<item key="D9C3D9F3-C172-6B08-EA1D-14F2588E8E83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>037CA0D7-7C7E-ED04-4BD9-F5BA3C43FB2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D214277D-77F6-DF9F-8283-682B21A558A2" name="{entity} PK">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:04:07 UTC</createdTime>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<engineerTo>
+<item key="D9C3D9F3-C172-6B08-EA1D-14F2588E8E83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E228161-FA85-0042-526E-777BA5D303CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

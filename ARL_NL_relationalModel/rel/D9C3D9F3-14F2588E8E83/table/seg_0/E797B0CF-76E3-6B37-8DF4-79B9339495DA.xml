@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E797B0CF-76E3-6B37-8DF4-79B9339495DA" name="NL_lab">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:13:18 UTC</createdTime>
+<generatorID>A4E279B5-4742-D700-3695-247A150F3B33</generatorID>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lab_id" id="2AE3567D-5510-CB2D-8FA6-925B56CCD137">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:13:18 UTC</createdTime>
+<generatorID>7024A1A8-4E61-9EF9-4D46-14D3D2B99152</generatorID>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="FCE755A6-4D53-B652-46AC-AECB7CD2D36C">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:13:18 UTC</createdTime>
+<generatorID>DF318C46-CADB-524E-7AF2-97480C41C4BA</generatorID>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AEFB8CD-8748-A02C-833C-F9BA1EDC2F92" name="NL_lab_PK">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 23:13:18 UTC</createdTime>
+<generatorID>71B8BAF0-D79E-C0D0-4510-939C3391E1E8</generatorID>
+<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AE3567D-5510-CB2D-8FA6-925B56CCD137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
