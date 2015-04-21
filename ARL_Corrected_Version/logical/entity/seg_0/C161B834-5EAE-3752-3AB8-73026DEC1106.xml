@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C161B834-5EAE-3752-3AB8-73026DEC1106" name="NL_ARL_Emp">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 01:25:58 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="E87D0079-2842-65B6-257A-76EDE6A36260">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 01:26:22 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="member_id" id="DBCBC5A6-90A5-6B12-46B5-9610CCC41DD2">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 01:33:29 UTC</createdTime>
+<generatorID>3516F0FD-7E96-C73D-425D-593E15CA6847</generatorID>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CD5C0C05-C20B-1A32-DEDB-16FAEF0A08C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="E01B7319-699F-20E1-5B7B-228BF919A38D">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 01:38:23 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="first_name" id="306B7C4C-CEB2-3A93-3BB9-E5C99999E03A">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 03:03:53 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="last_name" id="72A2842A-9D58-36D5-9613-A83ADB6E61FC">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 03:04:13 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="status" id="8FE7849E-5E78-980D-7221-6C375150F6DC">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 03:04:23 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="lab_code" id="B676F437-0684-ED84-B5E2-96E664759683">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 03:04:47 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="division_code" id="69B9321A-CCC2-0BB3-4683-6696C1FE13FA">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 03:05:04 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status_eff_date" id="A09ACA80-E497-7CE1-CDD9-EB54CD2F1E1D">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 03:06:10 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28587FF4-A8FA-59C0-B58F-1BDB39C261B4" name="{entity} PK">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-21 01:26:29 UTC</createdTime>
+<ownerDesignName>ARL_Logical</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E87D0079-2842-65B6-257A-76EDE6A36260</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
