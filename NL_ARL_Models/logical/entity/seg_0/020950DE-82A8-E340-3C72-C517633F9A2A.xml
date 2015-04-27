@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="020950DE-82A8-E340-3C72-C517633F9A2A" name="NL_lab">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-27 02:38:55 UTC</createdTime>
+<ownerDesignName>NL_ARL_Models</ownerDesignName>
+<engineerTo>
+<item key="2FE4B069-591C-7B3E-9438-57B983A786D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lab_id" id="D58E69B2-506B-49B6-A67F-13627E1D1671">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-27 02:39:06 UTC</createdTime>
+<ownerDesignName>NL_ARL_Models</ownerDesignName>
+<engineerTo>
+<item key="2FE4B069-591C-7B3E-9438-57B983A786D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="3FF5455F-36B6-A48F-1F7C-DCFDFCAEF049">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-27 02:39:13 UTC</createdTime>
+<ownerDesignName>NL_ARL_Models</ownerDesignName>
+<engineerTo>
+<item key="2FE4B069-591C-7B3E-9438-57B983A786D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="division_id" id="90A1A28C-CB1F-4D1C-52DA-4D0E25886320">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-27 02:43:24 UTC</createdTime>
+<generatorID>B2A21342-ADA6-E8C6-36F7-040420B20E55</generatorID>
+<ownerDesignName>NL_ARL_Models</ownerDesignName>
+<engineerTo>
+<item key="2FE4B069-591C-7B3E-9438-57B983A786D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5550F2E8-5AA1-FDEF-C049-18F0C94F5C77</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BC14C86-8428-A856-7FE5-655CF1BF085F" name="{entity} PK">
+<createdBy>Hannah</createdBy>
+<createdTime>2015-04-27 02:39:12 UTC</createdTime>
+<ownerDesignName>NL_ARL_Models</ownerDesignName>
+<engineerTo>
+<item key="2FE4B069-591C-7B3E-9438-57B983A786D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D58E69B2-506B-49B6-A67F-13627E1D1671</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
