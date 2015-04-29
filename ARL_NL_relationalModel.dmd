@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ARL_NL_relationalModel" id="0519C747-1B7E-7BED-4AF0-F860F2D031EF" version="3.5">
-<createdBy>Hannah</createdBy>
-<createdTime>2015-04-21 22:59:18 UTC</createdTime>
-<ownerDesignName>ARL_NL_relationalModel</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>0519C747-1B7E-7BED-4AF0-F860F2D031EF</designId>
-</OSDM_Design>
